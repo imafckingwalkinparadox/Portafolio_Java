@@ -12,9 +12,9 @@ public class IMC {
     public static void ProgramaIMC() {
 
         Scanner entradaDeDato = new Scanner(System.in);
-        System.out.println("Peso: ");
+        System.out.print("Peso: ");
         double peso = entradaDeDato.nextDouble();
-        System.out.println("Altura: ");
+        System.out.print("Altura: ");
         double altura = entradaDeDato.nextDouble();
 
         //PROCESO
