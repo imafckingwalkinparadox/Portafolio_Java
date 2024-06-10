@@ -6,6 +6,7 @@ import Paquete_almacenamiento.Lista_opciones;
 import Programas.IMC;
 import Matematicas.Mate;
 import Farenheit_a_Centigrados.Grados;
+import Conversor_de_Moneda.conversor_moneda;
 
 import java.time.LocalDate;
 import java.util.Scanner;
@@ -21,7 +22,7 @@ public class Main {
                 "Calculadora", "IMC",
                 "Farenheit / Celsius", "Calcular edad",
                 "Lista_compras", "Opcion6",
-                "Opción7", "Opción_8",
+                "Conversor_Monedas", "Opción_8",
                 "Opción_9", "Salir" };
 
         boolean programa = true;
@@ -61,7 +62,7 @@ public class Main {
                     System.out.println("");
                     break;
                 case 7:
-                    System.out.println("");
+                    conversor_moneda.conversor();
                 case 8:
                     System.out.println("Opcion8");
                     break;
