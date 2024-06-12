@@ -2,11 +2,13 @@
 import calculadora.Calculadora_edad;
 import Lista.ListaDeCompras;
 import Paquete_almacenamiento.Banner;
+import conversor.Longitudes;
 import mis_metodos.Lista_opciones;
 import Programas.IMC;
 import calculadora.Mate;
 import conversor.Grados;
 import conversor.conversor_moneda;
+import mis_metodos.MisMetodos;
 
 import java.time.LocalDate;
 import java.util.Scanner;
@@ -28,7 +30,10 @@ public class Main {
         boolean programa = true;
 
         do {
+            MisMetodos.limpiarConsola();
             Banner.Banner();
+            MisMetodos.imprimirLinea();
+
             //NombreClase.Nombre.Metodo
             Lista_opciones.cargarOpciones(listaDeOpciones);
 
@@ -36,7 +41,8 @@ public class Main {
             Scanner intOpcion = new Scanner(System.in);
             System.out.print("[?]: ");
             int opcion = intOpcion.nextInt();
-            System.out.println("------------------------------------");
+
+            MisMetodos.limpiarConsola();
 
             //Cargar opcion del usuariO
             switch (opcion) {
@@ -64,7 +70,7 @@ public class Main {
                 case 7:
                     conversor_moneda.conversor();
                 case 8:
-                    System.out.println("Opcion8");
+                    Longitudes.cargarOperaciones();
                     break;
                 case 9:
                     System.out.println("Opcion9");

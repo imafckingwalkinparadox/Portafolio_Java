@@ -1,9 +1,11 @@
 package conversor;
 
 
+import mis_metodos.MisMetodos;
+
 import java.util.Scanner;
 
-public class convensor_de_unidades {
+public class Longitudes {
 
     public static double CalConversiones(int kilometros) {
 
@@ -38,14 +40,15 @@ public class convensor_de_unidades {
         Scanner intOpcion2 = new Scanner(System.in);
         System.out.print("[?]: ");
         int opcion2 = intOpcion2.nextInt();
-        System.out.println("----------------------------------------------");
+
+        MisMetodos.imprimirLinea();
 
         switch (opcion2){
             case 1:
-                convensor_de_unidades.conversion1_();
+                Longitudes.conversion1_();
                 break;
             case 2:
-                convensor_de_unidades.conversion2_();
+                Longitudes.conversion2_();
                 break;
 
         }
