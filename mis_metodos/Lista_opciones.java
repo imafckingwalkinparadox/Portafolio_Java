@@ -1,4 +1,4 @@
-package Paquete_almacenamiento;
+package mis_metodos;
 
 public class Lista_opciones {
 //Carga y muestra las opciones en grupos de dos, cada grupo en una línea separada.

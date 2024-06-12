@@ -1,6 +1,4 @@
-package Conversor_de_Moneda;
-
-import Paquete_almacenamiento.Lista_opciones;
+package conversor;
 
 import java.util.Scanner;
 

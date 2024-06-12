@@ -1,7 +1,6 @@
-package Calculadora_edad;
+package calculadora;
 import java.time.LocalDate;
 import java.time.Period;
-import java.util.Scanner;
 
 public class Calculadora_edad {
     public static void calcular(LocalDate fechaNacimiento, LocalDate fechaActual) {

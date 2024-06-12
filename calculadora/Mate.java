@@ -1,6 +1,4 @@
-package Matematicas;
-import Paquete_almacenamiento.Lista_opciones;
-import jdk.jfr.internal.tool.Main;
+package calculadora;
 
 import java.util.Scanner;
 

@@ -22,8 +22,8 @@ que ofrece portabilidad y seguridad en el desarrollo de aplicaciones. y a contin
 - **Archivos:** `Lista.java`
 - **Descripción:** Para el sentido de este paquete es poner 3 productos y sus diferentes precios y la consola lo pondra autimaticamente como una lista.
 
-### Matematicas
-- **Archivos:** `Matematicas.java`
+### calculadora
+- **Archivos:** `calculadora.java`
 - **Descripción:** Es un programa con una funcion que da a escoger **(suma, resta, division y multiplicacion)** y al colocar dos numeros la consola lo resolvera.
 
 ### Paquete-almacenamiento
@@ -34,6 +34,6 @@ que ofrece portabilidad y seguridad en el desarrollo de aplicaciones. y a contin
 - **Archivos:** `Programas.java`,
 - **Descripción:** En este programa se encuentra el IMC **(Indice de Masa Corporal)** que al colocar la altura y el pesa de una persona les saldra por consola si tienen obesidad o bajo peso.
 
-### Conversor_de_Moneda
-- **Archivos:** `Conversor_de_Moneda.java`,
+### conversor
+- **Archivos:** `conversor.java`,
 - **Descripción:** En este programa esta la conversion de moneda donde se puede pasar de Q a $ y viceversa asi como de pesos mexicanos a Q usando un switch.

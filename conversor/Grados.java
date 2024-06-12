@@ -1,4 +1,4 @@
-package Farenheit_a_Centigrados;
+package conversor;
 
 import java.util.Scanner;
 

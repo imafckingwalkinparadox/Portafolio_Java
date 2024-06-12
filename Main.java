@@ -1,12 +1,12 @@
 // importar del nombrePaquete.nombreClase
-import Calculadora_edad.Calculadora_edad;
+import calculadora.Calculadora_edad;
 import Lista.ListaDeCompras;
-import Paquete_almacenamiento.Baner;
-import Paquete_almacenamiento.Lista_opciones;
+import Paquete_almacenamiento.Banner;
+import mis_metodos.Lista_opciones;
 import Programas.IMC;
-import Matematicas.Mate;
-import Farenheit_a_Centigrados.Grados;
-import Conversor_de_Moneda.conversor_moneda;
+import calculadora.Mate;
+import conversor.Grados;
+import conversor.conversor_moneda;
 
 import java.time.LocalDate;
 import java.util.Scanner;
@@ -28,7 +28,7 @@ public class Main {
         boolean programa = true;
 
         do {
-            Baner.Banner();
+            Banner.Banner();
             //NombreClase.Nombre.Metodo
             Lista_opciones.cargarOpciones(listaDeOpciones);
 

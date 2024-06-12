@@ -1,6 +1,6 @@
 package Lista;
 
-import Paquete_almacenamiento.Lista_opciones;
+import mis_metodos.Lista_opciones;
 
 import java.util.List;
 import java.util.ArrayList;
