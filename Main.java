@@ -3,6 +3,7 @@ import calculadora.Calculadora_edad;
 import Lista.ListaDeCompras;
 import Paquete_almacenamiento.Banner;
 import conversor.Longitudes;
+import libros.Biblioteca;
 import mis_metodos.Lista_opciones;
 import Programas.IMC;
 import calculadora.Mate;
@@ -23,8 +24,8 @@ public class Main {
         String[] listaDeOpciones = {
                 "Calculadora", "IMC",
                 "Farenheit / Celsius", "Calcular edad",
-                "Lista_compras", "Opcion6",
-                "Conversor_Monedas", "Opción_8",
+                "Lista_compras", "Longitudes",
+                "Conversor_Monedas", "Biblioteca",
                 "Opción_9", "Salir" };
 
         boolean programa = true;
@@ -65,12 +66,12 @@ public class Main {
                     ListaDeCompras.Programa();
                     break;
                 case 6:
-                    System.out.println("");
+                    Longitudes.cargarOperaciones();
                     break;
                 case 7:
                     conversor_moneda.conversor();
                 case 8:
-                    Longitudes.cargarOperaciones();
+                    Biblioteca.programa();
                     break;
                 case 9:
                     System.out.println("Opcion9");
