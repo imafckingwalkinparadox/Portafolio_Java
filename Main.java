@@ -3,6 +3,7 @@ import calculadora.Calculadora_edad;
 import Lista.ListaDeCompras;
 import Paquete_almacenamiento.Banner;
 import conversor.Longitudes;
+import escuela.Escuela;
 import libros.Biblioteca;
 import mis_metodos.Lista_opciones;
 import Programas.IMC;
@@ -26,7 +27,7 @@ public class Main {
                 "Farenheit / Celsius", "Calcular edad",
                 "Lista_compras", "Longitudes",
                 "Conversor_Monedas", "Biblioteca",
-                "Opción_9", "Salir" };
+                "Escuela", "Salir" };
 
         boolean programa = true;
 
@@ -74,7 +75,7 @@ public class Main {
                     Biblioteca.programa();
                     break;
                 case 9:
-                    System.out.println("Opcion9");
+                    Escuela.segundoPrimaria();
                     break;
                 case 10:
                     programa = false;
